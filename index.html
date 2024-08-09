@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letter Scramble Game</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        #scrambled-word, #input { margin: 10px 0; }
-        button { margin-top: 10px; }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Letter Scramble Game</h1>
     <div id="scrambled-word"></div>
     <input type="text" id="input" placeholder="Type your guess here">
     <button onclick="checkGuess()">Submit Guess</button>
+    <button onclick="giveHint()">Get Hint</button>
     <div id="message"></div>
+    <div id="score"></div>
+    <div id="level"></div>
+    <div id="timer"></div>
 
     <script src="script.js"></script>
 </body>
