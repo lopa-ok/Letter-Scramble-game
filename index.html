@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Scramble Game</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #scrambled-word, #input { margin: 10px 0; }
+        button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Letter Scramble Game</h1>
+    <div id="scrambled-word"></div>
+    <input type="text" id="input" placeholder="Type your guess here">
+    <button onclick="checkGuess()">Submit Guess</button>
+    <div id="message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
