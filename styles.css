@@ -43,9 +43,16 @@ button:hover {
     font-weight: bold;
 }
 
-#score, #level, #timer {
+#score, #level, #lives, #timer, #difficulty, #category {
     margin-top: 10px;
     font-size: 1.2em;
     font-weight: bold;
     color: #333;
+}
+
+#leaderboard {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: left;
+    display: inline-block;
 }
